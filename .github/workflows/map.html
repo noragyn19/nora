@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mountain Map | Mountains of Igbaras</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:Arial,sans-serif;background:#f3f5eb;color:#20392a}
+nav{padding:22px 7%;display:flex;justify-content:space-between;
+align-items:center;background:#10251c;gap:20px;flex-wrap:wrap}
+.logo{color:white;font-weight:bold;letter-spacing:2px}
+nav div:last-child{display:flex;gap:18px;flex-wrap:wrap}
+nav a{color:white;text-decoration:none;font-size:14px}
+nav a:hover{color:#b6df9e}
+header{text-align:center;padding:55px 20px;background:#dce9d6}
+header h1{font-size:40px;margin-bottom:15px}
+header p{line-height:1.8;max-width:700px;margin:auto}
+main{padding:35px 7%;max-width:1200px;margin:auto}
+.mapbox{background:white;padding:12px;border-radius:15px;
+box-shadow:0 5px 20px #00000012}
+iframe{width:100%;height:480px;border:0;border-radius:10px}
+.details{margin-top:25px;padding:25px;background:white;
+border-radius:12px;line-height:1.9}
+.btn{display:inline-block;background:#28543a;color:white;
+padding:12px 20px;border-radius:8px;text-decoration:none;
+margin-top:12px}
+footer{text-align:center;background:#10251c;color:white;padding:25px}
+@media(max-width:600px){iframe{height:360px}header h1{font-size:32px}}
+</style>
+</head>
+<body>
+<nav>
+  <div class="logo">IGBARAS MOUNTAINS</div>
+  <div>
+    <a href="index.html">Home</a>
+    <a href="activities.html">Activities</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="about.html">About Us</a>
+    <a href="map.html">Map</a>
+  </div>
+</nav>
+
+<header>
+  <h1>Find Your Next Adventure</h1>
+  <p>Explore the location of Mt. Napulak and discover
+  the mountain destinations of Igbaras, Iloilo.</p>
+</header>
+
+<main>
+  <div class="mapbox">
+    <iframe
+      title="Map of Mt. Napulak in Igbaras, Iloilo"
+      src="https://www.openstreetmap.org/export/embed.html?bbox=122.18%2C10.76%2C122.26%2C10.86&layer=mapnik&marker=10.80767%2C122.21809"
+      loading="lazy">
+    </iframe>
+  </div>
+
+  <section class="details">
+    <h2>⛰️ Mt. Napulak</h2>
+    <p><strong>Location:</strong> Barangay Tigbanaba,
+    Igbaras, Iloilo, Philippines</p>
+    <p><strong>Coordinates:</strong> 10.80767° N,
+    122.21809° E</p>
+    <p>Mt. Napulak is known for its distinctive summit
+    rock formation and panoramic mountain scenery.</p>
+    <a class="btn"
+       href="https://www.openstreetmap.org/?mlat=10.80767&mlon=122.21809#map=14/10.80767/122.21809"
+       target="_blank" rel="noopener">
+       Open Full Map ↗
+    </a>
+  </section>
+</main>
+
+<footer>
+   <p>
+            <strong>Author:</strong> Noragyn Florendo<br>
+            <strong>Year:</strong> 2026<br>
+            <strong>Place:</strong> Miagao, Iloilo, Philippines
+        </p>
+  © 2026 Mountains of Igbaras | Find Your Trail</footer>
+</body>
+</html>
